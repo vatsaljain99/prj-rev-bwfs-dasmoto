@@ -1,0 +1,57 @@
+html{
+  font-family: Helvetica;
+}
+
+h1{
+  font-size: 100px;
+  text-align: center;
+  color: khaki;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+
+}
+
+.brushes h2{
+  background-color: MediumSpringGreen;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.frame h2{
+  background-color: LightCoral;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.paint h2{
+  background-color: SkyBlue;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/*
+color: white;
+font-size: 32px;
+font-weight: bold;
+
+This part is repetitive, hence I tried to make one class  called "constant" for all 3 divisions(div) in the HTML code and
+made 3 seperate id after the 3 h2 (Example: <h2 id="brushes"> Brushes </h2> )
+and then in the CSS file I typed
+
+.constant{
+color: white;
+font-size: 32px;
+font-weight: bold;
+}
+
+#brushes{
+background-color: MediumSpringGreen;
+}
+
+Respectively for frame and paint
+
+But this I do not know  why did not work, hence I proceeded with the repetitive code.
+
+*/
